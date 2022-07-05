@@ -1,0 +1,31 @@
+{
+  "name": "moduleuno",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/motercode/moduleuno#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motercode/moduleuno.git"
+  },
+  "bugs": {
+    "url": "https://github.com/motercode/moduleuno/issues"
+  },
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@types/emojione": "^2.2.6",
+    "emojione": "^4.5.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.25.2",
+    "eslint": "^8.19.0",
+    "typescript": "^4.7.4"
+  }
+}
